@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Luxurious Roman"}
+body {font-family: "veranda"}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(240, 240, 240);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-green">
+    <i class="fa fa-leaf" style="font-size:36px"></i>
+    <p>Pipelines</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">
+    <i class="fa fa-child" style="font-size:36px"></i>
+    <p style="font-size:10px">EVERY CHILD MATTERS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-laptop" style="font-size:36px"></i>
+    <p>RESOURCES</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small" style="color:rgb(210, 31, 0)"> Indigenous Awareness Campaign</h1>
+    <h5 style="font-size:25px; font-weight:bold; color:rgb(210, 31, 0)">| No Longer Silenced |</h5>
+    
+    <p style="color:grey; font-size:20px"> 
+      Throughout history to our present day, 
+      the Indigenous populace of Canada has been subjected to cruel iniquities. 
+      The unjust actions of the government in the tragic Ipperwash case still 
+      continue to echo in the events of recent years. 
+      Unfortunately, the cycle of mistreatment persists, 
+      from the Trans Mountain Pipeline to the uncovering of mass graves 
+      containing the remains of Aboriginal children. 
+    </p>
+  
+    <p style="color:grey; font-size:25px; font-style:italic">
+      The public needs to be more aware and 
+      knowledgeable of the past atrocities 
+      committed by the government to prevent 
+      them from occurring again.
+    </p>
+    <img src="images/woman painting.jpeg" alt="woman painting" class="w3-image" width="992" height="110">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 style="color:rgb(210, 31, 0); font-weight:bold">| Trans Mountain Pipeline| </h2>
+    <hr style="width:200px" class="w3-opacity\">
+    <p style="font-size:20px">
+      The Trans Mountain Pipeline is tasked with carrying crude oil from Alberta to the coast of British Columbia. 
+      The building process ensued despite protests from several Indigenous groups. 
+      The First Nations vehemently expressed their concern for the environment, 
+      the Earth, and the negative effects of fossil fuel emissions as well as greenhouse gases. Ultimately, their concerns were left unheard.
+    </p>
+    <img src="images/protests.jpeg" alt="protests">
+    
+    <a href="https://crosscut.com/environment/2021/03/indigenous-activists-fight-british-columbias-pipelines-last-mile" target="_black" class="red">
+      “The land and sky will turn on you” if you disrespect the land.
+
+    </a>
+    
+
+    <p style="font-size:20px">
+      The pipeline also trespasses on traditional land that still hasn't been 
+      returned to the Indigenous peoples. It’s similar to 
+      when the government intruded on the land of the Stony Point First Nation, 
+      refusing to give back their land even decades after the war. Both these incidents
+      reflect the indifference the government has towards respecting and upholding past treaties and promises.
+    </p>
+
+    </div>
+    
+
+    
+  
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="photos">
+    <h2 style="color:rgb(210, 31, 0); font-weight:bold">| Every Child Matters |</h2>
+    <hr style="width:200px" class="w3-opacity\">
+    <p style="font-size:20px">
+      In 2021, a harrowing discovery was made on the lands of former residential schools. Ground-penetrating radars uncovered mass, unmarked graves of the remains of 
+      Indigenous children who died at residential schools. These children were physically, psychologically, sexually, and spiritually abused at these institutions. 
+      It was a cultutral genocide. Due to the neglect and horrendous mistreatment, as a result, many children perished at the hands of the government and the Church. 
+      The bodies were buried on school grounds by the Church because it was cumbersome to transport the children back home and inform the parents of their deaths.  
+    </p>
+    <img src="images/shoes.jpeg" alt="memorial/vigil">
+    
+
+    <p style="font-size:20px">
+      In the Ipperwash case, the government broke their promise to protect the burial grounds of the people of Stony Point First Nation. 
+      The fact that these graves were only recently found prove that the government still doesn’t care about Aboriginal peoples burial sites and graves, which is terribly dehumanizing.
+      If the government did care, more funding and resources would’ve been allocated to locate every missing child.
+    </p>
+   
+
+    <img src="images/every child matters.jpeg" alt="every child matters graphic">
+    <p>
+
+    </p>
+    <a href= "https://www.washingtonpost.com/world/the_americas/thousands-of-canadas-indigenous-children-died-in-church-run-boarding-schools-where-are-they-buried/2018/10/19/afd35060-cb25-11e8-ad0a-0e01efba3cc1_story.html" target="_black" class="red"> 
+      In 2015, Prime Minister Justin Trudeau promised to implement the Truth and Reconciliation Commission’s calls to action. 
+      Six of them deal specifically with creating a register of the missing children and mapping their graves.
+    </a>
+    <style>
+      a.red{
+        color:rgb(210, 31, 0);
+        font-size:30px;
+        font-weight:bold; 
+        font-family:Luxurious Roman
+      }
+     
+      .red:hover{
+        background-color:rgba(211, 46, 17, 0.247);
+        font-size:30px;
+        font-weight:bold; 
+        font-family:Luxurious Roman
+      }   
+    </style>
+  
+   
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 style="color:rgb(210, 31, 0); font-weight:bold">| Resources |</h2>
+    <hr style="width:200px" class="w3-opacity\">
+    <p style="font-size:20px">
+      This campaign is meant to raise awareness around the issues Aboriginal peoples face to this day
+      and shed light on past events such as the Ipperwash incident. Hopefully, the Indigenous community is 
+      able to seek solace and support through this initiative. Discrimination still exists even in this new era, but the First Nations peoples
+      aren't alone. We hear your voices and this campaign stands alongside you.
+
+    </p>
+    <a href="https://www.canada.ca/en/services/indigenous-peoples.html" target="_black" class=blue> 
+      https://www.canada.ca/en/services/indigenous-peoples.html
+    </a>
+    <p>
+
+    </p>
+    <a href="https://www.irsss.ca/about-us/governance" target="_blank" class=blue>
+      https://www.irsss.ca/about-us/governance
+    </a>
+    <p>
+
+    </p>
+    <a href="http://chiefs-of-ontario.org/" target="_blank" class=blue>
+      https://www.irsss.ca/about-us/governance
+    </a>
+
+    <style>
+      a.blue{
+      color:blue
+      }
+    </style>
+    
+    <h5 style="color:rgb(210, 31, 0); font-weight:bold; font-size:25px; text-align:center">| No Longer Silenced|</h5>
+     
+    
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
